@@ -1,9 +1,9 @@
-config = {
-    TOKEN: "xoxc",
-    COOKIE: "xoxd",
-    TEAM_ID: "sanchenz",
-    CHANNEL: "C05TX5MB9MY",
-    CLAUDE_USER: "U05U7AUSSSD",
+const config = {
+    TOKEN: process.env.TOKEN,
+    COOKIE: process.env.COOKIE,
+    TEAM_ID: process.env.TEAM_ID,
+    CHANNEL: process.env.CHANNEL,
+    CLAUDE_USER: process.env.CLAUDE_USER,
 
     edit_msg_with_ping: true,
 
