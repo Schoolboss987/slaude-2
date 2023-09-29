@@ -5,7 +5,7 @@ const config = {
     CHANNEL: process.env.CHANNEL,
     CLAUDE_USER: process.env.CLAUDE_USER,
 
-    edit_msg_with_ping: true,
+    edit_msg_with_ping: false,
 
     // if edit_msg_with_ping is false:
     // (i.e.send new message with ping instead of editting the first one)
