@@ -14,7 +14,7 @@ const config = {
     // Can be whatever you want it to be but keep in mind that it might result in unpredictable responses.
     // Anything we put here will eat into our max available tokens so keep it brief. Anything above ~12000 characters will get cut off by Slack.
     PING_MESSAGE_PREFIX: ".\n\n�A",
-    PING_MESSAGE: "",
+    PING_MESSAGE: "r�",
 
     // if edit_msg_with_ping is true:
     PING_PREFIX: "�A",
